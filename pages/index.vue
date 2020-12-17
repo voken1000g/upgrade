@@ -5,7 +5,7 @@
         Voken {{ $t('Resale_or_Update_Program') }}
       </h1>
 
-      <div class="mt-4 font-mono text-gray-500 text-center">
+      <div class="mt-3 font-mono text-xs text-gray-500 text-center break-all">
         {{ $store.state.upgradeContractAdds }}
       </div>
 
