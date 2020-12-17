@@ -2,7 +2,7 @@
 
 You are holding old (deprecated) Voken/Voken2.0? Read this first.
 
-Then, visit:<br>
+Then, visit the dedicated dApp:<br>
 [https://voken1000g.github.io/upgrade][dApp]
 
 Please visit with your Chrome/Firefox browser with MetaMask extension,
