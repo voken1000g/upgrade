@@ -46,8 +46,8 @@
       </div>
 
       <div v-if="showV1Portal || showV2Portal" class="mt-6 font-mono text-sm text-center">
-        <a target="_blank" :href="$t('doc_upgrade.href')" class="a-info">
-          <fa :icon="['fas', 'info-circle']" /> {{ $t('doc_upgrade.text') }}
+        <a target="_blank" :href="$t('learn_upgrade.href')" class="a-info">
+          <fa :icon="['fas', 'info-circle']" /> {{ $t('learn_upgrade.text') }}
         </a>
       </div>
     </div>

@@ -80,8 +80,8 @@ export default {
   The_limit_has_been_reached: '已经到了极限',
   The_deadline_for_apply_is: '申请截止时间是',
 
-  doc_upgrade: {
+  learn_upgrade: {
     text: 'Details of Resale or Upgrade Program',
-    href: 'https://voken.io/zh_CN/latest/guide/upgrade.html'
+    href: 'https://github.com/voken1000g/upgrade/blob/master/README.md'
   }
 }

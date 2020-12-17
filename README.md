@@ -82,7 +82,7 @@ Already deployed:
 For those users who are holding Voken or Voken2.0,
 there are two options to choose from:
 
-1. **Resale**, get your investment back.
+1. **Resale**, get your investment back, paid in USD(DAI stable coin).
 2. **Upgrade**, migrate to the new VokenTB.
 
 We know that some users bought tokens
