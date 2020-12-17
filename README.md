@@ -140,28 +140,28 @@ Here is a list of the exchange wallet addresses and names that we can confirm so
 
 | Address                     | Name | Voken1.0          | Voken2.0       | Audit Cost (USD) |
 | --------------------------- | ---- | ----------------: | -------------: | ---------------: |
-| [0x99fe5d63...][0x99fe5d63] |      | 34,399,542.719752 | 144,722.669816 |      344,588.617 |
-| [0x6efb20f6...][0x6efb20f6] | BiKi | 44,379,111.252464 | 819,738.800063 |      410,808.485 |
-| [0x06829d4d...][0x06829d4d] |      | 17,767,266.337282 |                |      158,266.259 |
-| [0x0211f3ce...][0x0211f3ce] | MXC  |  5,231,651.443424 |                |       57,344.979 |
-| [0x05822541...][0x05822541] |      |  6,866,245.285419 |                |       49,198.027 |
-| [0xd9811e8b...][0xd9811e8b] |      |  5,714,633.531198 |                |       51,895.346 |
-| [0x7aa12eef...][0x7aa12eef] |      |  6,277,089.958439 |                |       51,700.893 |
-| [0xd8e15c71...][0xd8e15c71] |      |  4,959,470.229500 |                |       44,307.215 |
+| [0x99fe5d638328...][ex1] |      | 34,399,542.719752 | 144,722.669816 |      344,588.617 |
+| [0x6efb20f61b80...][ex2] | BiKi | 44,379,111.252464 | 819,738.800063 |      410,808.485 |
+| [0x06829d4d3105...][ex3] |      | 17,767,266.337282 |                |      158,266.259 |
+| [0x0211f3cedbef...][ex4] | MXC  |  5,231,651.443424 |                |       57,344.979 |
+| [0x05822541de00...][ex5] |      |  6,866,245.285419 |                |       49,198.027 |
+| [0xd9811e8b7c42...][ex6] |      |  5,714,633.531198 |                |       51,895.346 |
+| [0x7aa12eef14db...][ex7] |      |  6,277,089.958439 |                |       51,700.893 |
+| [0xd8e15c71964b...][ex8] |      |  4,959,470.229500 |                |       44,307.215 |
 
 If you have something to add to this,
 please let us know by sending an email to
 support@voken.io
 
 
-[0x99fe5d63]: https://etherscan.io/address/0x99fe5d6383289cdd56e54fc0baf7f67c957a8888
-[0x6efb20f6]: https://etherscan.io/address/0x6efb20f61b80f6a7ebe7a107bace58288a51fb34
-[0x06829d4d]: https://etherscan.io/address/0x06829d4d31051b2e96e39156210de5bcebafd9ac
-[0x0211f3ce]: https://etherscan.io/address/0x0211f3cedbef3143223d3acf0e589747933e8527
-[0x05822541]: https://etherscan.io/address/0x05822541de006ade623a12bea1bcb40fd5a46a7a
-[0xd9811e8b]: https://etherscan.io/address/0xd9811e8b7c42418c71dabfe63b9cc17f8db1a6eb
-[0x7aa12eef]: https://etherscan.io/address/0x7aa12eef14db55884ab2fe0d097e0064ef7a8eca
-[0xd8e15c71]: https://etherscan.io/address/0xd8e15c71964b05ffa0884c9fa21e19f7a3c6449d
+[ex1]: https://etherscan.io/address/0x99fe5d6383289cdd56e54fc0baf7f67c957a8888
+[ex2]: https://etherscan.io/address/0x6efb20f61b80f6a7ebe7a107bace58288a51fb34
+[ex3]: https://etherscan.io/address/0x06829d4d31051b2e96e39156210de5bcebafd9ac
+[ex4]: https://etherscan.io/address/0x0211f3cedbef3143223d3acf0e589747933e8527
+[ex5]: https://etherscan.io/address/0x05822541de006ade623a12bea1bcb40fd5a46a7a
+[ex6]: https://etherscan.io/address/0xd9811e8b7c42418c71dabfe63b9cc17f8db1a6eb
+[ex7]: https://etherscan.io/address/0x7aa12eef14db55884ab2fe0d097e0064ef7a8eca
+[ex8]: https://etherscan.io/address/0xd8e15c71964b05ffa0884c9fa21e19f7a3c6449d
 
 
 ------
