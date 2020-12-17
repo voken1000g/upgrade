@@ -1,0 +1,138 @@
+/*
+ ** button
+ */
+.btn {
+  @apply inline-flex items-center;
+  @apply py-3 px-6 bg-indigo-600 border border-transparent rounded-md;
+  @apply leading-6 font-medium text-indigo-50;
+  @qpply transition duration-150 ease-in-out;
+}
+
+.btn:hover {
+  @apply bg-indigo-500 text-white;
+}
+
+.btn:focus {
+  @apply outline-none border-indigo-600;
+}
+
+.btn:active {
+  @apply bg-indigo-600;
+}
+
+/*
+ ** label
+ */
+.label {
+  @apply text-gray-700;
+}
+
+.label.success {
+  @apply text-green-700;
+}
+
+.label.warning {
+  @apply text-yellow-700;
+}
+
+.label.error {
+  @apply text-red-700;
+}
+
+
+/*
+ ** input
+ */
+.ipt {
+  @apply text-gray-700;
+}
+
+.ipt:focus,
+.txa:focus {
+  @apply border-indigo-300 shadow-outline-indigo;
+}
+
+.ipt.success,
+.txa.success {
+  @apply bg-green-50 border-green-600 text-green-600;
+}
+
+.ipt.success:focus,
+.txa.success:focus {
+  @apply border-green-400 shadow-outline-green;
+}
+
+.ipt.error,
+.txa.error {
+  @apply bg-red-50 border-red-600 text-red-600;
+}
+
+.ipt.error:focus,
+.txa.error:focus {
+  @apply border-red-400 shadow-outline-red;
+}
+
+.ipt.warning,
+.txa.warning {
+  @apply bg-yellow-50 border-yellow-600 text-yellow-600;
+}
+
+.ipt.warning:focus,
+.txa.warning:focus {
+  @apply border-yellow-400 shadow-outline-yellow;
+}
+
+
+
+/*
+ ** input icon
+ */
+.ipt-icon {
+  @apply absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none;
+}
+
+.ipt-ident-icon {
+  @apply absolute inset-y-0 right-0 pr-3 flex items-center;
+}
+
+.ipt-icon.success {
+  @apply text-green-600;
+}
+
+.ipt-icon.warning {
+  @apply text-yellow-600;
+}
+
+.ipt-icon.error {
+  @apply text-red-600;
+}
+
+/*
+ ** input p
+ */
+.ipt-p {
+  @apply text-gray-500;
+}
+
+.ipt-p.success {
+  @apply text-green-700;
+}
+
+.ipt-p.warning {
+  @apply text-yellow-700;
+}
+
+.ipt-p.error {
+  @apply text-red-700;
+}
+
+/*
+ **
+ */
+.pi {
+  @apply text-sm text-gray-500;
+}
+
+.pv {
+  @apply pr-4 text-2xl text-gray-700 text-right;
+}
