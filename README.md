@@ -5,6 +5,9 @@ You are holding old (deprecated) Voken/Voken2.0? Read this first.
 Then, visit:<br>
 [https://voken1000g.github.io/upgrade][dApp]
 
+Please visit with your Chrome/Firefox browser with MetaMask extension,
+or copy the URL to your imToken - Browser.
+
 
 ## History Review
 
