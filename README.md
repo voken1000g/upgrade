@@ -203,33 +203,17 @@ Read [Early-Bird Sale][Early-Bird Sale] and [Referrals System][Referrals System]
 [Tokenomics]:
   #updating-documentation
 
-[1]
-  https://voken.io/en/latest/whitepaper/tokenomics.html#whitepaper-tokenomics
-
 [VokenTB Main Contract]:
   #updating-documentation
-
-[2]
-  https://voken.io/en/latest/contracts/main.html
 
 [VokenTB Early-Bird Sale Contract]:
   #updating-documentation
 
-[3]
-  https://voken.io/en/latest/contracts/early_bird.html
-
 [Early-Bird Sale]:
   #updating-documentation
-
-[4]
-  https://voken.io/en/latest/sale/early_bird.html
 
 [Referrals System]:
   #updating-documentation
 
-[5]
-  https://voken.io/en/latest/sale/referrals_system.html
-
 [MakerDAO]:
   https://makerdao.com/
-
