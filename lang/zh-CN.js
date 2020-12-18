@@ -54,7 +54,7 @@ export default {
   After_upgraded_you_will_get: '升级后，你将获得',
   and_you_can_get_an_additional: '而且，你可以得到一个额外的',
   as_bonuses: '作为奖励',
-  Totally: '完全是',
+  Totally: '总共是',
   new: '新的',
 
   you_ve_successfully_applied_for_resale: '你已经成功申请了转售',
