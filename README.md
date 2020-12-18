@@ -184,15 +184,6 @@ lyman@voken.io
 
 ------
 
-## Updating documentation
-
-If you find that some of the links are not yet accessible, it is because we are updating them.
-
-They will be available after the update.
-
-
-------
-
 ## Early-Bird Sale and Referral System
 
 Want to participate in the Early-Bird Sale?
@@ -214,19 +205,19 @@ Read [Early-Bird Sale][Early-Bird Sale] and [Referrals System][Referrals System]
   https://voken1000g.github.io/web-ui-wallet
 
 [Tokenomics]:
-  #updating-documentation
+  https://voken.io/en/latest/whitepaper/tokenomics.html#whitepaper-tokenomics
 
 [VokenTB Main Contract]:
-  #updating-documentation
+  https://voken.io/en/latest/contracts/main.html
 
 [VokenTB Early-Bird Sale Contract]:
-  #updating-documentation
+  https://voken.io/en/latest/contracts/early_bird.html
 
 [Early-Bird Sale]:
-  #updating-documentation
+  https://voken.io/en/latest/sale/early_bird.html
 
 [Referrals System]:
-  #updating-documentation
+  https://voken.io/en/latest/sale/referrals_system.html
 
 [MakerDAO]:
   https://makerdao.com/
