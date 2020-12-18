@@ -26,7 +26,14 @@ class DApp {
       .status()
       .call()
       .then(payload => {
-        let status = {
+        const vokenTbTotal = (
+          new BigNumber(payload.v1Claimed)
+            .plus(payload.v1Bonuses)
+            .plus(payload.v2Claimed)
+            .plus(payload.v2Bonuses)
+        )
+
+        const status = {
           deadline: parseInt(payload.deadline),
           usdAudit: new BigNumber(payload.usdAudit),
           usdClaimed: new BigNumber(payload.usdClaimed),
@@ -36,7 +43,8 @@ class DApp {
           v1Bonuses: new BigNumber(payload.v1Bonuses),
           v2Claimed: new BigNumber(payload.v2Claimed),
           v2Bonuses: new BigNumber(payload.v2Bonuses),
-          vokenTbTotal: new BigNumber(payload.v1Claimed).plus(payload.v1Bonuses).plus(payload.v2Claimed).plus(payload.v2Bonuses),
+          vokenTbTotal: vokenTbTotal,
+          processInPercent: vokenTbTotal.multipliedBy(100).div(process.env.vokenUpgradedCap),
           etherUSDPrice: new BigNumber(payload.etherUSD),
           vokenUSDPrice: new BigNumber(payload.vokenUSD)
         }

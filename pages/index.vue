@@ -9,11 +9,13 @@
         {{ $store.state.upgradeContractAdds }}
       </div>
 
-      <not-for-the-address v-if="$store.state.notForTheAddress"/>
+      <not-for-the-address v-if="$store.state.notForTheAddress" />
     </div>
 
     <div v-if="$store.state.account">
-      <deadline-countdown v-if="showV1Portal || showV2Portal"/>
+      <deadline-countdown v-if="showV1Portal || showV2Portal" />
+
+      <upgrade-process class="mx-4"/>
 
       <!--  v1  -->
       <div v-if="$store.state.accountStatus.v1ResaleAppliedTimestamp > 0">
@@ -47,7 +49,8 @@
 
       <div v-if="showV1Portal || showV2Portal" class="mt-6 font-mono text-sm text-center">
         <a target="_blank" :href="$t('learn_upgrade.href')" class="a-info">
-          <fa :icon="['fas', 'info-circle']" /> {{ $t('learn_upgrade.text') }}
+          <fa :icon="['fas', 'info-circle']" />
+          {{ $t('learn_upgrade.text') }}
         </a>
       </div>
     </div>
@@ -62,11 +65,12 @@ import V2ResaleStatus from '~/components/V2ResaleStatus'
 import V2UpgradeStatus from '~/components/V2UpgradeStatus'
 import DeadlineCountdown from '@/components/DeadlineCountdown'
 import NotForTheAddress from '@/components/NotForTheAddress'
+import UpgradeProcess from '~/components/UpgradeProcess'
 
 export default {
   name: 'index',
   layout: 'dapp',
-  components: { NotForTheAddress, DeadlineCountdown, V2UpgradeStatus, V2ResaleStatus, V1UpgradeStatus, V1ResaleStatus },
+  components: { UpgradeProcess, NotForTheAddress, DeadlineCountdown, V2UpgradeStatus, V2ResaleStatus, V1UpgradeStatus, V1ResaleStatus },
   mounted: async function() {
     await this.$store.state.dApp.getV1ResaleStatus()
     await this.$store.state.dApp.getV1UpgradeStatus()

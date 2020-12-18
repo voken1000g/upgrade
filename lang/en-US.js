@@ -7,6 +7,7 @@ export default {
   Resale: 'Resale',
   Upgrade: 'Upgrade',
   Program: 'Program',
+  Resale_or_Update: 'Resale/Update',
   Resale_or_Update_Program: 'Resale/Update Program',
   Portal: 'Portal',
   Option1: 'Option #1:',

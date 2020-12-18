@@ -25,6 +25,7 @@ export const state = () => ({
     v2Bonuses: new BigNumber(0),
 
     vokenTbTotal: new BigNumber(0),
+    processInPercent: new BigNumber(0),
 
     etherUSDPrice: new BigNumber(0),
     vokenUSDPrice: new BigNumber(0)

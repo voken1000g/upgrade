@@ -7,6 +7,7 @@ export default {
   Resale: '转售',
   Upgrade: '升级',
   Program: '程序',
+  Resale_or_Update: '转售/升级',
   Resale_or_Update_Program: '转售/升级程序',
   Portal: '入口',
   Option1: '选项 #1：',

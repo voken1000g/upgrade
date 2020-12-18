@@ -21,6 +21,7 @@
         <div class="mt-8 font-mono text-center">
           <v2-audit />
           <deadline-countdown />
+          <upgrade-process class="mt-4 mb-12 "/>
           <v2-resale />
           <v2-upgrade />
         </div>
@@ -37,11 +38,12 @@ import V2ResaleStatus from '~/components/V2ResaleStatus'
 import V2UpgradeStatus from '~/components/V2UpgradeStatus'
 import DeadlineCountdown from '@/components/DeadlineCountdown'
 import NotForTheAddress from '@/components/NotForTheAddress'
+import UpgradeProcess from '~/components/UpgradeProcess'
 
 export default {
   name: 'v2',
   layout: 'dapp',
-  components: { NotForTheAddress, DeadlineCountdown, V2UpgradeStatus, V2ResaleStatus, V2Upgrade, V2Resale, V2Audit },
+  components: { UpgradeProcess, NotForTheAddress, DeadlineCountdown, V2UpgradeStatus, V2ResaleStatus, V2Upgrade, V2Resale, V2Audit },
   mounted: async function() {
     await this.$store.state.dApp.getV1ResaleStatus()
     await this.$store.state.dApp.getV1UpgradeStatus()

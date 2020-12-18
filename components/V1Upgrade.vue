@@ -4,6 +4,8 @@
       {{ $t('Option2') }} {{ $t('Apply4upgrade2VokenTB') }}
     </div>
 
+    <upgrade-process class="mt-2" />
+
     <div v-if="$store.state.accountStatus.canOnlyResale"
          class="mt-6 py-4 bg-red-50 border border-red-400 font-bold text-red-600"
     >

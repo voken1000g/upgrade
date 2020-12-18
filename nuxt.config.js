@@ -1,8 +1,14 @@
 import { join } from 'path'
+import BigNumber from 'bignumber.js'
 
 const baseUrl = '/upgrade/'
+// const baseUrl = '/'
 
 export default {
+  env: {
+    vokenUpgradedCap: new BigNumber(21000000000000000)
+  },
+
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -98,18 +104,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios',
     '@nuxtjs/toast',
     'nuxt-i18n',
     'nuxt-fontawesome'
   ],
-
-  /*
-  ** Axios
-  */
-  axios: {
-    //
-  },
 
   /*
   ** Toast

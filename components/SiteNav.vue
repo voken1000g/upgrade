@@ -28,7 +28,7 @@
               <fa :icon="['fas', 'wallet']" />
             </div>
             <div class="hidden lg:block pl-4 text-gray-300 text-2xl">
-              {{ $t('Resale') }} / {{ $t('Upgrade') }}
+              {{ $t('Resale_or_Update') }}
             </div>
           </nuxt-link>
         </div>
