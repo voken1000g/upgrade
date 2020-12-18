@@ -105,7 +105,13 @@ you can get more than the value of your investment in VokenTB.
 > There are records of all transfers on the Ethereum blockchain,
 > and we have audited the private placement process and all transfers.
 >
-> For each transaction, the recipient's new costing formula is:
+> For each address, the initial cost is:
+>
+> ```python
+> ETH.sent - ETH.rewarded
+> ```
+>
+> Then, for each transaction, the recipient's new costing formula is:
 >
 > ```python
 > tx.amount * tx.price + recipient.amount * recipient.price
