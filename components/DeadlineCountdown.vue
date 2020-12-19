@@ -1,7 +1,5 @@
 <template>
-  <div v-if="!$store.state.notForTheAddress"
-       class="mt-8 py-6 font-sans text-center text-gray-600"
-  >
+  <div v-if="!$store.state.notForTheAddress" class="mt-8 py-6 font-mono text-center text-gray-600">
     <div class="text-xl">
       {{ $t('The_deadline_for_apply_is') }}
     </div>
@@ -23,7 +21,3 @@ export default {
   name: 'DeadlineCountdown'
 }
 </script>
-
-<style scoped>
-
-</style>

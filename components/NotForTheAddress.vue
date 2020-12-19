@@ -1,7 +1,7 @@
 <template>
   <div class="mt-12 py-6 px-4 bg-gray-700 text-center">
     <div class="text-lg text-white">
-      This program does not work for the address
+      This program does not work for your address
     </div>
     <div class="mt-4 text-sm text-gray-300">
       {{ $store.state.account }}

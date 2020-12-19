@@ -8,22 +8,22 @@
       <div class="mt-3 font-mono text-xs text-gray-500 text-center break-all">
         {{ $store.state.upgradeContractAdds }}
       </div>
-
-      <not-for-the-address v-if="$store.state.notForTheAddress" />
     </div>
 
-    <div v-if="$store.state.account">
+    <div v-if="$store.state.account" class="mt-12">
       <deadline-countdown v-if="showV1Portal || showV2Portal" />
 
       <upgrade-process class="mx-4"/>
 
+      <not-for-the-address class='mx-4' v-if="$store.state.notForTheAddress" />
+
       <!--  v1  -->
       <div v-if="$store.state.accountStatus.v1ResaleAppliedTimestamp > 0">
-        <v1-resale-status />
+        <v1-resale-status class="mx-4" />
       </div>
 
       <div v-if="$store.state.accountStatus.v1UpgradeAppliedTimestamp > 0">
-        <v1-upgrade-status />
+        <v1-upgrade-status class="mx-4" />
       </div>
 
       <div v-if="showV1Portal">
@@ -34,11 +34,11 @@
 
       <!--  v2  -->
       <div v-if="$store.state.accountStatus.v2ResaleAppliedTimestamp > 0">
-        <v2-resale-status />
+        <v2-resale-status class="mx-4" />
       </div>
 
       <div v-if="$store.state.accountStatus.v2UpgradeAppliedTimestamp > 0">
-        <v2-upgrade-status />
+        <v2-upgrade-status class="mx-4" />
       </div>
 
       <div v-if="showV2Portal">
