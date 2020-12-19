@@ -1,8 +1,8 @@
 import { join } from 'path'
 import BigNumber from 'bignumber.js'
 
-const baseUrl = '/upgrade/'
 // const baseUrl = '/'
+const baseUrl = '/upgrade/'
 
 export default {
   env: {
@@ -172,7 +172,7 @@ export default {
           'faPlay',
           'faStop',
           'faBolt',
-          'faMapMarkerAlt',
+          'faMapMarkerAlt'
         ]
       }
     ]
