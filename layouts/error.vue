@@ -1,11 +1,15 @@
 <template>
-  <div class="lo-error">
-    <h1>
+  <div class='text-red-800 text-center'>
+    <div class='text-6xl'>
+      <fa :icon="['fas', 'bug']" />
+    </div>
+
+    <h1 class='mt-10 font-mono font-bold text-4xl'>
       Error
       {{ error.statusCode }}
     </h1>
 
-    <h2>
+    <h2 class='mt-6 text-2xl'>
       {{ error.message }}
     </h2>
   </div>
@@ -14,22 +18,8 @@
 <script>
 export default {
   name: 'error',
-  layout: 'default',
+  layout: 'redPolygon',
   props: ['error']
 }
 </script>
 
-<style scoped>
-.lo-error {
-  @apply font-sans font-light tracking-wide text-center;
-  padding-top: 10vh;
-}
-
-.lo-error h1 {
-  @apply text-gray-700 text-5xl;
-}
-
-.lo-error h2 {
-  @apply mt-6 text-gray-600 text-2xl;
-}
-</style>
