@@ -1,0 +1,46 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  auto-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: install
+        run: yarn
+
+      - name: build
+        run: yarn build
+
+      - name: cname
+        run: echo "upgrade.voken.io" > ./dist/CNAME
+
+      - name: deploy (early-bird)
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repository-name: voken-upgrade/voken-upgrade.github.io
+          commit-message: "${{ github.repository }}@${{ github.sha }}"
+          branch: main
+          folder: dist
+
+      - name: clear
+        run: rm -rf ./dist
+
+      - name: build (repo)
+        run: yarn build-repo
+
+      - name: deploy (repo)
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          commit-message: "@${{ github.sha }}"
+          branch: gh-pages
+          folder: dist

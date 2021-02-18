@@ -1,8 +1,7 @@
 import { join } from 'path'
 import BigNumber from 'bignumber.js'
 
-// const baseUrl = '/'
-const baseUrl = '/upgrade/'
+const baseUrl = process.env.BASE_URL
 
 export default {
   env: {
@@ -19,7 +18,7 @@ export default {
   ** 404 for SPA
   */
   generate: {
-    dir: 'docs',
+    dir: 'dist',
     fallback: true
   },
 
