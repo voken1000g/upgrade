@@ -18,7 +18,7 @@
     "@nuxt/typescript-runtime": "^0.4.10",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/toast": "^3.3.1",
-    "@tailwindcss/ui": "^0.5.0",
+    "@tailwindcss/ui": "^0.7.2",
     "bignumber.js": "^9.0.1",
     "detect-browser": "^5.2.0",
     "node-sass": "^4.14.1",
