@@ -24,7 +24,7 @@
     "node-sass": "^5.0.0",
     "nuxt": "^2.15.2",
     "nuxt-fontawesome": "^0.4.0",
-    "nuxt-i18n": "^6.20.2",
+    "nuxt-i18n": "^6.20.3",
     "nuxt-purgecss": "^1.0.0",
     "sass-loader": "10.1.1",
     "vue-qr": "^2.3.0"
