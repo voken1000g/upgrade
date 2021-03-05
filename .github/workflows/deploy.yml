@@ -7,12 +7,23 @@ on:
 
 jobs:
   auto-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ ubuntu-latest ]
+        node: [ 14 ]
+
     steps:
       - name: checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+
+      - name: setup node env
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{ matrix.node }}
 
       - name: install
         run: yarn
@@ -27,7 +38,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: voken-upgrade/voken-upgrade.github.io
+          repository-name: voken1000g/upgrade.voken.io
           commit-message: "${{ github.repository }}@${{ github.sha }}"
           branch: main
           folder: dist
