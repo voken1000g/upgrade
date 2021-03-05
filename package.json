@@ -4,18 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "cross-env BASE_URL=/ nuxt-ts generate",
-    "start": "cross-env BASE_URL=/ nuxt-ts start",
-    "build-repo": "cross-env BASE_URL=/upgrade/ nuxt-ts generate",
-    "start-repo": "cross-env BASE_URL=/upgrade/ nuxt-ts start",
-    "export": "nuxt-ts export",
-    "serve": "nuxt-ts serve"
+    "build": "cross-env BASE_URL=/ nuxt generate",
+    "start": "cross-env BASE_URL=/ nuxt start",
+    "build-repo": "cross-env BASE_URL=/upgrade/ nuxt generate",
+    "start-repo": "cross-env BASE_URL=/upgrade/ nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@metamask/detect-provider": "^1.2.0",
     "@metamask/onboarding": "^1.0.0",
-    "@nuxt/typescript-runtime": "^2.0.2",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/toast": "^3.3.1",
     "@tailwindcss/ui": "^0.7.2",
@@ -30,6 +29,7 @@
     "vue-qr": "^2.3.0"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.15.2",
     "@nuxt/typescript-build": "^2.0.6",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "cross-env": "^7.0.3",
