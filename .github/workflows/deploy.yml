@@ -15,26 +15,26 @@ jobs:
         node: [ 14 ]
 
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: setup node env
+      - name: Setup node env
         uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{ matrix.node }}
 
-      - name: install
+      - name: Install
         run: yarn
 
-      - name: build
+      - name: Build
         run: yarn build
 
-      - name: cname
+      - name: CNAME
         run: echo "upgrade.voken.io" > ./dist/CNAME
 
-      - name: deploy (upgrade)
+      - name: Deploy (upgrade.voken.io)
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
@@ -43,13 +43,13 @@ jobs:
           branch: main
           folder: dist
 
-      - name: clear
+      - name: Clear
         run: rm -rf ./dist
 
-      - name: build (repo)
+      - name: Build (repo)
         run: yarn build-repo
 
-      - name: deploy (repo)
+      - name: Deploy (voken1000g.github.io/upgrade)
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           commit-message: "@${{ github.sha }}"
