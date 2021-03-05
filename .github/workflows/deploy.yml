@@ -28,10 +28,10 @@ jobs:
       - name: Install
         run: yarn
 
-      - name: Build
+      - name: Build (upgrade.voken.io)
         run: yarn build
 
-      - name: CNAME
+      - name: CNAME (upgrade.voken.io)
         run: echo "upgrade.voken.io" > ./dist/CNAME
 
       - name: Deploy (upgrade.voken.io)
@@ -46,7 +46,7 @@ jobs:
       - name: Clear
         run: rm -rf ./dist
 
-      - name: Build (repo)
+      - name: Build (voken1000g.github.io/upgrade)
         run: yarn build-repo
 
       - name: Deploy (voken1000g.github.io/upgrade)

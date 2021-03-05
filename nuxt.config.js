@@ -8,11 +8,7 @@ export default {
     vokenUpgradedCap: new BigNumber(21000000000000000)
   },
 
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'spa',
+  ssr: false,
 
   /*
   ** 404 for SPA
