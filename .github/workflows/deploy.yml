@@ -34,7 +34,7 @@ jobs:
       - name: cname
         run: echo "upgrade.voken.io" > ./dist/CNAME
 
-      - name: deploy (early-bird)
+      - name: deploy (upgrade)
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
