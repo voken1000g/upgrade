@@ -10,7 +10,7 @@
       {{ $t('You_can_only_apply_for_resale') }}
     </div>
 
-    <div v-else class="mt-2">
+    <div v-else-if="$store.state.status.vokenTbTotal.lt('21000000000000000')" class="mt-2">
       <div class="py-1 px-4 bg-indigo-200 rounded-t-md text-indigo-600 text-right">
         1 ETH = {{ v2EtherUSDPrice }} USD
         <span v-if="$store.state.blockNumber > 0">
@@ -95,6 +95,8 @@
                  :message="txMessage" />
       </div>
     </div>
+
+    <upgrade-cap-reached v-else />
   </div>
 </template>
 
