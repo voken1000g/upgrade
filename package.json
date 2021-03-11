@@ -21,7 +21,7 @@
     "bignumber.js": "^9.0.1",
     "detect-browser": "^5.2.0",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.15.2",
+    "nuxt": "^2.15.3",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-i18n": "^6.21.0",
     "nuxt-purgecss": "^1.0.0",
