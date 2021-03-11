@@ -29,7 +29,7 @@
     "vue-qr": "^2.3.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.2",
+    "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^3.4.3",
     "cross-env": "^7.0.3",
