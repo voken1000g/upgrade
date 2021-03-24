@@ -45,7 +45,7 @@ export default {
   _higher_: '（更高）',
   so_you_can_get: '所以你可以得到',
   then_you_could_claim_USD_during_the_VokenTB_sale_progress: '然后，你可以在 VokenTB 销售过程中领取 USD(DAI)',
-  You_could_claim_ETH_during_the_VokenTB_sale_progress: '你可以在 VokenTB 销售过程中领取 ETH',
+  You_could_claim_ETH_during_the_VokenTB_sale_progress: '你可以在 VokenTB 销售过程中领取 USD(DAI)',
   If_you_apply_for_upgrade_to_VokenTB: '如果您申请升级到 VokenTB',
   you_can_convert_this: '你可以将这',
   to_VokenTB_at_price: '兑换成 VokenTB，在价格',

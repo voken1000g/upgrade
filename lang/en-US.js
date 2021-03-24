@@ -45,7 +45,7 @@ export default {
   _higher_: '(higher)',
   so_you_can_get: 'so you can get',
   then_you_could_claim_USD_during_the_VokenTB_sale_progress: 'then, you could claim USD(DAI) during the VokenTB sale progress',
-  You_could_claim_ETH_during_the_VokenTB_sale_progress: 'You could claim ETH during the VokenTB sale progress',
+  You_could_claim_ETH_during_the_VokenTB_sale_progress: 'You could claim USD(DAI) during the VokenTB sale progress',
   If_you_apply_for_upgrade_to_VokenTB: 'If you apply for upgrade to VokenTB',
   you_can_convert_this: 'you can convert this',
   to_VokenTB_at_price: 'to VokenTB at price',
